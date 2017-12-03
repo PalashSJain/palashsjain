@@ -16,7 +16,13 @@ a {
 }
 
 a:hover {
+    color: darkblue;
     text-decoration: none;
+}
+
+.resume-link {
+    color: darkgreen;
+    font-weight: bold;
 }
 
 .row {
@@ -38,3 +44,4 @@ a:hover {
     border-bottom: 1px solid #00000020;
     text-transform: uppercase;
 }
+
