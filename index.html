@@ -67,7 +67,7 @@
         </div>
         <div class="card">
             <div class="card-body">
-                <h4 class="card-title">Skills</h4>
+                <h4 class="card-title">Some Skills I like to work on!</h4>
                 <div class="card-columns mb-5">
                     <div>
                         <span>Java</span>
@@ -150,7 +150,19 @@
         </div>
         <div class="card">
             <div class="card-body">
-                <h4 class="card-title">Contact Information</h4>
+                <h4 class="card-title">Lets get in touch!</h4>
+                <div class="input-group">
+                    <label class="mr-3" id="email"><i class="fa fa-fw fa-envelope-o"></i></label>
+                    <label aria-describedby="email">
+                        <a href="mailTo:palash.jain@mail.rit.edu">palash.jain@mail.rit.edu</a>
+                    </label>
+                </div>
+                <div class="input-group">
+                    <label class="mr-3" id="location"><i class="fa fa-fw fa-map-marker"></i></label>
+                    <label aria-describedby="location">
+                        Jersey City, New Jersey
+                    </label>
+                </div>
             </div>
         </div>
     </div>
@@ -169,10 +181,10 @@
 
 <script>
     let circle = document.createElement("i");
-    circle.className = "fa fa-circle";
+    circle.className = "fa fa-fw fa-circle";
 
     let circle_o = document.createElement("i");
-    circle_o.className = "fa fa-circle-o";
+    circle_o.className = "fa fa-fw fa-circle-o";
 
     let elements = document.getElementsByClassName("one-star");
     for (let i = 0; i < elements.length; i++) {

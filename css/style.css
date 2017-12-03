@@ -11,6 +11,14 @@ body {
     overflow-x: hidden;
 }
 
+a {
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
 .row {
     margin-left: 0;
     margin-right: 0;
@@ -21,15 +29,12 @@ body {
 }
 
 .card {
-    background-color: #ffffff40;
+    background-color: #ffffff80;
+    border: none;
 }
 
-.card-title{
+.card-title {
+    padding-bottom: 10px;
     border-bottom: 1px solid #00000020;
     text-transform: uppercase;
-}
-
-.fa {
-    margin-left: 5px;
-    margin-right: 5px;
 }
