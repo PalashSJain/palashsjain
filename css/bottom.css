@@ -1,0 +1,87 @@
+.land {
+    position: relative;
+    z-index: -1;
+    margin-top: 250px;
+}
+
+.forest {
+    top: 0;
+    height: 76%;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
+
+.tree01 {
+    animation: treesmoving 70s linear 2s infinite reverse backwards;
+    background: url('../images/pinetree1.svg') no-repeat;
+    bottom: 30px;
+    height: 292px;
+    position: absolute;
+    width: 263px;
+    z-index: 300;
+}
+
+.tree02 {
+    animation: treesmoving 46s linear 6s infinite reverse backwards;
+    background: url('../images/traingletree.svg') no-repeat;
+    bottom: 24px;
+    height: 320px;
+    position: absolute;
+    width: 212px;
+    z-index: 500;
+}
+
+.tree03 {
+    animation: treesmoving 36s linear 4s infinite reverse backwards;
+    background: url('../images/pinetree2.svg') no-repeat;
+    bottom: 10px;
+    height: 435px;
+    position: absolute;
+    width: 391px;
+    z-index: 500;
+}
+
+.tree04 {
+    animation: treesmoving 60s linear infinite reverse;
+    background: url('../images/traingletree2.svg') no-repeat;
+    bottom: 25px;
+    height: 278px;
+    position: absolute;
+    width: 184px;
+    z-index: 300;
+}
+
+.forest-background {
+    background: url('../images/forest-background-opt.svg');
+    background-position: 0px 0px;
+    background-repeat: repeat-x;
+    animation: animatedBackground 12s linear infinite reverse;
+    bottom: 25%;
+    height: 330px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 4;
+}
+
+.road {
+    background: #c39d7a;
+    bottom: 0;
+    height: 25%;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 5;
+}
+
+@keyframes animatedBackground {
+    from { background-position: 0 0; }
+    to { background-position: 100% 0; }
+}
+
+@keyframes treesmoving {
+    from {transform: translateX(-400px);}
+    to {transform: translateX(1450px);}
+}
