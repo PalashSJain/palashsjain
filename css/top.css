@@ -40,9 +40,9 @@
 /* ANIMATIONS */
 
 .cloud1 {
-    -webkit-animation: animateCloud 35s linear infinite;
-    -moz-animation: animateCloud 35s linear infinite;
-    animation: animateCloud 35s linear infinite;
+    -webkit-animation: animateCloud 50s linear infinite;
+    -moz-animation: animateCloud 50s linear infinite;
+    animation: animateCloud 50s linear infinite;
 
     -webkit-transform: scale(0.60);
     -moz-transform: scale(0.60);
@@ -50,9 +50,9 @@
 }
 
 .cloud2 {
-    -webkit-animation: animateCloud 30s linear infinite;
-    -moz-animation: animateCloud 30s linear infinite;
-    animation: animateCloud 30s linear infinite;
+    -webkit-animation: animateCloud 60s linear infinite;
+    -moz-animation: animateCloud 60s linear infinite;
+    animation: animateCloud 60s linear infinite;
 
     -webkit-transform: scale(0.3);
     -moz-transform: scale(0.3);

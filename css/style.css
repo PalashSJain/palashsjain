@@ -23,3 +23,8 @@ body {
 .card {
     background-color: #ffffff40;
 }
+
+.card-title{
+    border-bottom: 1px solid #00000020;
+    text-transform: uppercase;
+}
