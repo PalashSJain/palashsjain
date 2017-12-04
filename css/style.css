@@ -31,6 +31,10 @@ a:hover {
 }
 
 .card-columns {
+    columns: 1;
+}
+
+.skill-set {
     columns: 2;
 }
 
@@ -45,3 +49,30 @@ a:hover {
     text-transform: uppercase;
 }
 
+.list-group-item {
+    margin-top: 6px;
+    margin-bottom: 6px;
+    background-color: #8cddff;
+    border: none;
+    border-radius: 5px;
+}
+
+.input-group-addon {
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: black;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+}
+
+.list-group-item-action {
+    color: black;
+}
+
+.list-group-item-action:hover {
+    color: black;
+}
