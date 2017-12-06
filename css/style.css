@@ -76,3 +76,9 @@ a:hover {
 .list-group-item-action:hover {
     color: black;
 }
+
+@media (max-width: 992px) {
+    .skill-set{
+        columns: 1;
+    }
+}
