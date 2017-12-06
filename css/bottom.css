@@ -1,7 +1,7 @@
 .land {
     position: relative;
     z-index: -1;
-    margin-top: 250px;
+    /*margin-top: 250px;*/
 }
 
 .forest {
@@ -57,7 +57,7 @@
     background: url('../images/forest-background-opt.svg');
     background-position: 0px 0px;
     background-repeat: repeat-x;
-    animation: animatedBackground 60s linear infinite reverse;
+    animation: animatedBackground 300s linear infinite reverse;
     bottom: 25%;
     height: 330px;
     left: 0;
