@@ -136,4 +136,31 @@
 .sun img {
     height: inherit;
     width: inherit;
+
+    -webkit-animation: zoom 4s infinite; /* Chrome, Safari, Opera */
+    animation: zoom 4s infinite;
+}
+
+@-webkit-keyframes zoom {
+    0% {
+        -webkit-transform: scale(1, 1);
+    }
+    50% {
+        -webkit-transform: scale(1.1, 1.1);
+    }
+    100% {
+        -webkit-transform: scale(1, 1);
+    }
+}
+
+@keyframes zoom {
+    0% {
+        transform: scale(1, 1);
+    }
+    50% {
+        transform: scale(1.02, 1.02);
+    }
+    100% {
+        transform: scale(1, 1);
+    }
 }
