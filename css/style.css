@@ -20,6 +20,11 @@ a:hover {
     text-decoration: none;
 }
 
+p {
+    font-family: 'Handlee', cursive;
+    font-size: large;
+}
+
 .resume-link {
     color: darkgreen;
     font-weight: bold;
@@ -47,6 +52,7 @@ a:hover {
     padding-bottom: 10px;
     border-bottom: 1px solid #00000020;
     text-transform: uppercase;
+    font-family: 'Comfortaa', cursive;
 }
 
 .list-group-item {
