@@ -44,7 +44,7 @@
 }
 
 .tree04 {
-    animation: treesmoving 30s linear infinite reverse;
+    animation: treesmoving 35s linear infinite reverse;
     background: url('../images/traingletree2.svg') no-repeat;
     bottom: 26px;
     height: 278px;
